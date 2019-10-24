@@ -8,5 +8,5 @@ wget http://www.project1999.com/files/P99Files50d.zip
 unzip -o P99Files50d.zip -d ~/.wine/drive_c/Program\ Files/Sony/EverQuest
 cd ~/.wine/drive_c/Program\ Files/Sony/EverQuest
 mv Resources/loadscreen.JPG Resources/loadscreen.jpg
-mv dsetup.dll DSETUP.dll
+mv DSETUP.dll dsetup.dll
 echo -e "\n\033[0;32mDONE !\033[0m"
