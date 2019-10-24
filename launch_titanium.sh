@@ -1,7 +1,7 @@
 #!/bin/sh
 # if you don't have the script's cwd set, you get XML errors
 export WINEPREFIX=$HOME/.wine/
-cd ~/.wine/drive_c/Program\ Files/Sony/EverQuest
+cd ~/.wine/drive_c/Program\ Files\ \(x86\)/Sony/EverQuest/
 # Bind to one core of the processor and launch.
 # The client will spew a lot of errors, especially every time
 # you target a mob, hence the stdout/stderr redirect.
