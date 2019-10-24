@@ -5,9 +5,10 @@ You have to install WINE, and run `winecfg` to make sure everything is working p
 
 ## Install EverQuest
 Get a copy of EverQuest Titanium and install it. You can also copy an already installed of the game over to your machine, which is easier.
+The default game directory is `/home/<user>/.wine/drive_c/Program Files/Sony/Everquest/`
 
 ## Patch files
-Run `patch_files.sh` in the game's directory (Default: `/home/<user>/.wine/drive_c/Program Files/Sony/Everquest/`\).
+Run `patch_files.sh`.
 
 ## Play
 Run `launch_titanium.sh` to play.
