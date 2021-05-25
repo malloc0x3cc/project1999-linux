@@ -1,6 +1,6 @@
 #!/bin/sh
 GAMEPATH=~/.wine/drive_c/Program\ Files\ \(x86\)/Sony/EverQuest
-P99FILE=P99Files53.zip
+P99FILE=P99Files54.zip
 
 mv -v "${GAMEPATH}/Resources/loadscreen.JPG" "${GAMEPATH}/Resources/loadscreen.jpg"
 mv -v "${GAMEPATH}/DSETUP.dll" "${GAMEPATH}/dsetup.dll"
