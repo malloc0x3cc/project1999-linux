@@ -1,0 +1,3 @@
+[submodule "p99-login-middlemand"]
+	path = p99-login-middlemand
+	url = https://github.com/Zaela/p99-login-middlemand
