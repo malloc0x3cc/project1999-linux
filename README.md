@@ -9,6 +9,13 @@ You have to install WINE, and run `winecfg` to make sure everything is working p
 Get a copy of EverQuest Titanium and install it. Copying the folder of an already installed EQ Titanium to your machine would also work.
 The default game directory is `~/.wine/drive_c/Program Files (x86)/Sony/EverQuest`. If you want to install your game somewhere else make sure to edit the `GAMEPATH` variable in `patch_files.sh`.
 
+## Clone the repository
+```sh
+$ git clone https://github.com/malloc0x3cc/project1999-linux.git
+$ git submodule init
+$ git submodule update
+```
+
 ## Patch files
 Run `patch_files.sh`.
 

@@ -11,9 +11,14 @@ wget https://www.project1999.com/files/${P99FILE}
 unzip -ou ${P99FILE} -d "${GAMEPATH}"
 rm -vf ${P99FILE}
 
-# compiling p99-login-middlemand and patching the game to use it
-cd ./p99-login-middlemand && make
+# compiling p99-login-middlemand and rewriting eqhost.txt to use it
+make -C ./p99-login-middlemand
 echo -e "[LoginServer]\nHost=localhost:5998" > ${GAMEPATH}/eqhost.txt
+
+# Move post Velious musics in a new folder
+cd "${GAMEPATH}"
+mkdir -v post-velious-musics
+mv -v eqtheme.mp3 combattheme1.mp3 combattheme2.mp3 deaththeme.mp3 -t post-velious-musics
 
 echo -e "\n\033[0;36m _____           _         _   ___   ___ ___ ___ \033[0m"
 echo -e "\033[0;36m|  _  |___ ___  |_|___ ___| |_|_  | | . | . | . |\033[0m"
