@@ -1,6 +1,6 @@
 #!/bin/sh
 GAMEPATH=~/.wine/drive_c/Program\ Files\ \(x86\)/Sony/EverQuest
-P99FILE=P99Files54.zip
+P99FILE=P99Files55.zip
 
 # Renaming files
 mv -v "${GAMEPATH}/Resources/loadscreen.JPG" "${GAMEPATH}/Resources/loadscreen.jpg"
