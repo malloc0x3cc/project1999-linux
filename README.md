@@ -25,5 +25,4 @@ Run `launch_titanium.sh` to play. (Note that I removed the taskset part because 
 
 ## Thanks to:
 - Zallarenya for the launch script on p99's website
-
 - eliashow for ideas from his install script
