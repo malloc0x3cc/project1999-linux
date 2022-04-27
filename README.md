@@ -5,6 +5,8 @@ You have to install WINE, and run `winecfg` to make sure everything is working p
 
 `wget` and `unzip` are also required by the patch script.
 
+`fluidsynth` and `qsynth` are necessary for midi music
+
 ## Install EverQuest
 Get a copy of EverQuest Titanium and install it. Copying the folder of an already installed EQ Titanium to your machine would also work.
 The default game directory is `~/.wine/drive_c/Program Files (x86)/Sony/EverQuest`. If you want to install your game somewhere else make sure to edit the `GAMEPATH` variable in `patch_files.sh`.

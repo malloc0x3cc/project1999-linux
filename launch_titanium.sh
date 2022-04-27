@@ -1,5 +1,6 @@
 #!/bin/sh
 export WINEPREFIX=$HOME/.wine/
+qsynth &
 ./p99-login-middlemand/bin/p99-login-middlemand &
 MIDDLEMAND_PID=$!
 cd ~/.wine/drive_c/Program\ Files\ \(x86\)/Sony/EverQuest/
