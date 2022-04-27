@@ -1,11 +1,10 @@
 # project1999-linux
 
-## Requirements
-You have to install WINE, and run `winecfg` to make sure everything is working properly.
-
-`wget` and `unzip` are also required by the patch script.
-
-`fluidsynth` and `qsynth` are necessary for midi music
+## Dependencies
+- `git`
+- `wine`
+- `fluidsynth` and `qsynth` for midi music.
+- `wget` and `unzip` for the patch script.
 
 ## Install EverQuest
 Get a copy of EverQuest Titanium and install it. Copying the folder of an already installed EQ Titanium to your machine would also work.
