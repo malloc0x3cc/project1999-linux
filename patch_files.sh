@@ -12,6 +12,8 @@ unzip -ou ${P99FILE} -d "${GAMEPATH}"
 rm -vf ${P99FILE}
 
 # compiling p99-login-middlemand and rewriting eqhost.txt to use it
+git submodule init
+git submodule update
 make -C ./p99-login-middlemand
 echo -e "[LoginServer]\nHost=localhost:5998" > ${GAMEPATH}/eqhost.txt
 
