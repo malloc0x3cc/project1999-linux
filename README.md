@@ -3,7 +3,7 @@
 ## Dependencies
 - `git`
 - `wine`
-- `fluidsynth` and `qsynth` for midi music.
+- `fluidsynth` and `qsynth` for midi music (make sure to have a soundfront selected).
 - `wget` and `unzip` for the patch script.
 
 ## Install EverQuest
