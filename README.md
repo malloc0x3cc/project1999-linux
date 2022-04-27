@@ -12,8 +12,6 @@ The default game directory is `~/.wine/drive_c/Program Files (x86)/Sony/EverQues
 ## Clone the repository
 ```sh
 $ git clone https://github.com/malloc0x3cc/project1999-linux.git
-$ git submodule init
-$ git submodule update
 ```
 
 ## Patch files
@@ -25,4 +23,6 @@ This will make all the modifications needed to play on Project1999 servers.
 Run `launch_titanium.sh` to play. (Note that I removed the taskset part because it would make the game run really slow)
 
 ## Thanks to:
-- Zallarenya for the launch script
+- Zallarenya for the launch script on p99's website
+
+- eliashow for ideas from his install script
