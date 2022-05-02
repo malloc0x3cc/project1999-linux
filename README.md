@@ -8,7 +8,7 @@
 
 ## Install EverQuest
 Get a copy of EverQuest Titanium and install it. Copying the folder of an already installed EQ Titanium to your machine would also work.
-The default game directory is `~/.wine/drive_c/Program Files (x86)/Sony/EverQuest`. If you want to install your game somewhere else make sure to edit the `GAMEPATH` variable in `patch_files.sh`.
+The default game directory is `~/.wine/drive_c/Program Files (x86)/Sony/EverQuest`. If you want to install your game somewhere else make sure to edit the `GAMEPATH` variable in `patch_files.sh` before using it.
 
 ## Clone the repository
 ```sh
