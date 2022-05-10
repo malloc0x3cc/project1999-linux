@@ -8,7 +8,7 @@ mv -v "${GAMEPATH}/DSETUP.dll" "${GAMEPATH}/dsetup.dll"
 
 # Patching the game for Project1999
 wget https://www.project1999.com/files/${P99FILE}
-unzip -ou ${P99FILE} -d "${GAMEPATH}"
+unzip -ouv ${P99FILE} -d "${GAMEPATH}"
 rm -vf ${P99FILE}
 
 # compiling p99-login-middlemand and rewriting eqhost.txt to use it
