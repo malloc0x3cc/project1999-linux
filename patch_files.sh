@@ -1,6 +1,6 @@
 #!/bin/sh
 export WINEPREFIX=$HOME/.wine
-GAMEPATH=$WINEPREFIX/drive_c/Program\ Files/Sony/EverQuest/
+GAMEPATH=$WINEPREFIX/drive_c/Program\ Files\ \(x86\)/Sony/EverQuest/
 P99FILE=P99Files55.zip
 
 # Renaming files

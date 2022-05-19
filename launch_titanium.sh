@@ -1,6 +1,6 @@
 #!/bin/sh
 export WINEPREFIX=$HOME/.wine
-GAMEPATH=$WINEPREFIX/drive_c/Program\ Files/Sony/EverQuest/
+GAMEPATH=$WINEPREFIX/drive_c/Program\ Files\ \(x86\)/Sony/EverQuest/
 
 echo -e "\n\033[0;36m _____           _         _   ___   ___ ___ ___ \033[0m"
 echo -e   "\033[0;36m|  _  |___ ___  |_|___ ___| |_|_  | | . | . | . |\033[0m"
