@@ -3,8 +3,8 @@
 ## Dependencies
 - `git`
 - `wine`
-- `fluidsynth` (and a soundfont) for midi music.
-- `wget` and `unzip` for the patch script.
+- `wget` and `unzip` for the patch script
+- Optional: `fluidsynth` (and a soundfont) for midi music
 
 ## Install EverQuest
 Get a copy of EverQuest Titanium and install it. Copying the folder of an already installed EQ Titanium to your machine would also work.
