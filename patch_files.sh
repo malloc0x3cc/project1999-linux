@@ -8,8 +8,8 @@ mv -v "${GAMEPATH}/Resources/loadscreen.JPG" "${GAMEPATH}/Resources/loadscreen.j
 mv -v "${GAMEPATH}/DSETUP.dll" "${GAMEPATH}/dsetup.dll"
 
 # Move post Velious musics in a new folder
-mkdir -v "${GAMEPATH}post-velious-musics"
-mv -v "${GAMEPATH}/eqtheme.mp3 ${GAMEPATH}/combattheme1.mp3 ${GAMEPATH}/combattheme2.mp3 ${GAMEPATH}/deaththeme.mp3" -t "${GAMEPATH}/post-velious-musics"
+mkdir -v "${GAMEPATH}/post-velious-musics"
+mv -v "${GAMEPATH}/eqtheme.mp3 ${GAMEPATH}/combattheme1.mp3 ${GAMEPATH}/combattheme2.mp3 ${GAMEPATH}/deaththeme.mp3" -t "${GAMEPATH}/post-velious-musics/"
 
 # Patching the game for Project1999
 wget https://www.project1999.com/files/${P99FILE}
