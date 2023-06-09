@@ -4,7 +4,7 @@
 - `git`
 - `wine`
 - `wget` and `unzip` for the patch script
-- ` p99-login-middlemand` to get the server list
+- `p99-login-middlemand` to get the server list
 - Optional: `fluidsynth` (and a soundfont) for midi music
 
 ## Install EverQuest
