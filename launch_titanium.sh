@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 export WINEPREFIX=$HOME/.wine
 GAMEPATH=$WINEPREFIX/drive_c/Program\ Files\ \(x86\)/Sony/EverQuest
 
