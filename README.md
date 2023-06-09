@@ -2,6 +2,7 @@
 
 ## Dependencies
 - `git`
+- `bash`
 - `wine`
 - `wget` and `unzip` for the patch script
 - `p99-login-middlemand` to get the server list
