@@ -1,7 +1,7 @@
 #!/bin/bash
 export WINEPREFIX=$HOME/.wine
 GAMEPATH=$WINEPREFIX/drive_c/Program\ Files\ \(x86\)/Sony/EverQuest
-P99FILE=P99FilesV60.zip
+P99FILE=https://www.project1999.com/files/P99FilesV61.zip
 
 # Renaming files
 mv -v "${GAMEPATH}/Resources/loadscreen.JPG" "${GAMEPATH}/Resources/loadscreen.jpg"
@@ -12,7 +12,7 @@ mkdir -v "${GAMEPATH}/post-velious-musics"
 mv -v "${GAMEPATH}/eqtheme.mp3 ${GAMEPATH}/combattheme1.mp3 ${GAMEPATH}/combattheme2.mp3 ${GAMEPATH}/deaththeme.mp3" -t "${GAMEPATH}/post-velious-musics/"
 
 # Patching the game for Project1999
-wget https://www.project1999.com/files/${P99FILE}
+wget ${P99FILE}
 unzip -fov ${P99FILE} -d "${GAMEPATH}"
 rm -vf ${P99FILE}
 
