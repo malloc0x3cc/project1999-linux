@@ -1,7 +1,7 @@
 #!/bin/bash
 export WINEPREFIX=$HOME/.wine
 GAMEPATH=$WINEPREFIX/drive_c/Program\ Files\ \(x86\)/Sony/EverQuest
-P99FILE=https://www.project1999.com/files/P99FilesV61.zip
+P99FILE=https://www.project1999.com/files/P99FilesV62.zip
 
 # Renaming files
 mv -v "${GAMEPATH}/Resources/loadscreen.JPG" "${GAMEPATH}/Resources/loadscreen.jpg"
